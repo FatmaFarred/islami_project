@@ -54,7 +54,7 @@ dev_dependencies:
 flutter_native_splash:
   background_image: assets/images/splash_screen.png
   android_12:
-    image: assets/images/logo.png
+    image: assets/images/splash_logo.png
     color: "#202020"
     branding: assets/images/brand.png
   android: true
@@ -71,7 +71,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
-  #   - images/a_dot_ham.jpeg
+    - assets/files/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
